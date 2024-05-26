@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="uwyn.rife2.bld" type="repository">
+    <properties maven-id="com.uwyn.rife2:bld:1.9.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/uwyn/rife2/bld/1.9.1/bld-1.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,3 +1,4 @@
+
 @SuppressWarnings({"requires-automatic", "requires-transitive-automatic"})
 module insbiz.webapp {
     //requires java.logging;
@@ -6,12 +7,12 @@ module insbiz.webapp {
 //    requires tourbiz.datamodel;
 //    requires peruncs.geocode.mapsco;
 
-    // requires io.helidon.webserver;
-    // requires io.helidon.webserver.staticcontent;
-    // requires io.helidon.logging.common;
-    // requires io.helidon.http;
-    // requires peruncs.helidon;
-    // requires peruncs.utilities;
+    requires io.helidon.webserver;
+    requires io.helidon.webserver.staticcontent;
+    requires io.helidon.logging.common;
+    requires io.helidon.http;
+    requires peruncs.helidon;
+    requires peruncs.utilities;
     //requires io.helidon.webclient;
 
 //    requires org.eclipse.serializer.configuration;

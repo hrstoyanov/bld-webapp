@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/build/bld" />
+    <output url="file://$MODULE_DIR$/build/main" />
     <output-test url="file://$MODULE_DIR$/build/test" />
-    <content url="file://$MODULE_DIR$/src/bld">
-      <sourceFolder url="file://$MODULE_DIR$/src/bld/java" isTestSource="false" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/lib/bld" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/lib/bld" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/lib/bld" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/lib/bld" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
@@ -28,9 +18,10 @@
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://$USER_HOME$/.ideaLibSources/bld-1.9.1-sources.jar!/" />
+          <root url="file://$MODULE_DIR$/lib/compile" />
         </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/lib/compile" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/lib/compile" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="" scope="RUNTIME">
@@ -51,6 +42,19 @@
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/lib/provided" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/test" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/lib/test" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/lib/test" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/lib/test" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>
