@@ -21,26 +21,26 @@ class InsWebAppBld extends BaseBld {
         configureJunit(this);
         configureHamcrest(this);
 
-       // var modules = List.of("io.helidon.webserver", "io.helidon.webserver.staticcontent","io.helidon.logging.common");
+        var modules = List.of("io.helidon.webserver", "io.helidon.webserver.staticcontent","io.helidon.logging.common");
 
         runOperation()
                 .javaOptions()
                 .enablePreview()
-                .modulePath(compileMainClasspath().stream().map(File::new).toList());
-//                .addModules(modules);
+                .modulePath(compileMainClasspath().stream().map(File::new).toList())
+                .addModules(modules);
 
         compileOperation()
                 .compileOptions()
                 .enablePreview()
-                .modulePath(compileMainClasspath().stream().map(File::new).toList());
-//                .addModules(modules);
+                .modulePath(compileMainClasspath().stream().map(File::new).toList())
+               .addModules(modules);
 
         testOperation()
                 .javaOptions()
                 .enablePreview()
                 .modulePath(testClasspath().stream().map(File::new).toList())
-                .modulePath(compileMainClasspath().stream().map(File::new).toList());
-//                .addModules(modules);
+                .modulePath(compileMainClasspath().stream().map(File::new).toList())
+                .addModules(modules);
     }
 
 }
