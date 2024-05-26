@@ -10,10 +10,6 @@ lib/runtime/
 lib/standalone/
 lib/test/
 
-
-**/build/**
-**/webapp/lib/**
-
 # IDEA ignores
 
 # User-specific

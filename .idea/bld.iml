@@ -2,56 +2,13 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/build/bld" />
-    <output-test url="file://$MODULE_DIR$/build/test" />
+    <output-test url="file://$MODULE_DIR$/build/bld" />
+    <exclude-output />
     <content url="file://$MODULE_DIR$/src/bld">
       <sourceFolder url="file://$MODULE_DIR$/src/bld/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/lib/bld" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/lib/bld" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/lib/bld" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/lib/bld" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/lib/compile" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.ideaLibSources/bld-1.9.1-sources.jar!/" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/lib/compile" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="" scope="RUNTIME">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/lib/runtime" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/lib/runtime" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="" scope="PROVIDED">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/lib/provided" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/lib/provided" recursive="false" />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="bld" level="project" />
   </component>
 </module>
